@@ -1,0 +1,6 @@
+
+Showing Recent Messages
+No profiles for 'com.Albert.Hugos-pussel' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'com.Albert.Hugos-pussel'.
+
+The operation couldn’t be completed. Unable to log in with account 'albhanett@gmail.com'. The login details for account 'albhanett@gmail.com' were rejected.
+

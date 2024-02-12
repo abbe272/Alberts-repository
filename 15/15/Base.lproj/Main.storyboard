@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="första" id="BYZ-38-t0r" customClass="ViewController" customModule="_5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7M-hS-mvg">
+                                <rect key="frame" x="23" y="352" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49484382180000003" green="0.5317037563" blue="0.50405880550000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn1:" destination="BYZ-38-t0r" eventType="touchDown" id="ggB-Pq-54P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="En0-wH-S9s">
+                                <rect key="frame" x="111" y="352" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn2:" destination="BYZ-38-t0r" eventType="touchDown" id="Dmr-u0-HXJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LoV-qG-fvr">
+                                <rect key="frame" x="287" y="352" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn4:" destination="BYZ-38-t0r" eventType="touchDown" id="2HR-P6-BWR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdS-aq-lBF">
+                                <rect key="frame" x="199" y="352" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49484382180000003" green="0.5317037563" blue="0.50405880550000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn3:" destination="BYZ-38-t0r" eventType="touchDown" id="CPQ-PP-HeY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbm-N9-wg0">
+                                <rect key="frame" x="23" y="440" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn5:" destination="BYZ-38-t0r" eventType="touchDown" id="0lF-Lf-K9s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bg-jI-uls">
+                                <rect key="frame" x="111" y="440" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49484382180000003" green="0.5317037563" blue="0.50405880550000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn6:" destination="BYZ-38-t0r" eventType="touchDown" id="OCr-5Q-Q2U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4N-dV-MT0">
+                                <rect key="frame" x="287" y="440" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49484382180000003" green="0.5317037563" blue="0.50405880550000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn8:" destination="BYZ-38-t0r" eventType="touchDown" id="sno-h2-Pdz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lz-KO-XIL">
+                                <rect key="frame" x="199" y="440" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn7:" destination="BYZ-38-t0r" eventType="touchDown" id="Tog-Gr-avl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpL-GG-uPN">
+                                <rect key="frame" x="23" y="528" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49484382180000003" green="0.5317037563" blue="0.50405880550000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn9:" destination="BYZ-38-t0r" eventType="touchDown" id="g8p-Cr-Rja"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGy-kh-h4B">
+                                <rect key="frame" x="111" y="528" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="10">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn10:" destination="BYZ-38-t0r" eventType="touchDown" id="hnD-q3-yON"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jo1-vY-q7t">
+                                <rect key="frame" x="287" y="528" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="12">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn12:" destination="BYZ-38-t0r" eventType="touchDown" id="60v-ds-fww"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHr-nm-FxP">
+                                <rect key="frame" x="199" y="528" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49484382180000003" green="0.5317037563" blue="0.50405880550000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="11">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn11:" destination="BYZ-38-t0r" eventType="touchDown" id="53F-Ry-j0z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0i-gX-SeS">
+                                <rect key="frame" x="23" y="616" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="13">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn13:" destination="BYZ-38-t0r" eventType="touchDown" id="XYi-uy-y9r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJK-bz-pBy">
+                                <rect key="frame" x="111" y="616" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.49484382180000003" green="0.5317037563" blue="0.50405880550000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="14">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn14:" destination="BYZ-38-t0r" eventType="touchDown" id="OFV-pN-hTh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gd6-CV-aAj">
+                                <rect key="frame" x="199" y="616" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <state key="normal" title="15">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn15:" destination="BYZ-38-t0r" eventType="touchDown" id="Fhc-DE-tEg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6T-Qb-7Sz">
+                                <rect key="frame" x="110" y="164" width="106" height="58"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZE-FL-00a">
+                                <rect key="frame" x="160" y="725" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="60"/>
+                                <state key="normal" backgroundImage="blanda">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnBlanda:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lB6-jN-Y7N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IpB-NY-FZs">
+                                <rect key="frame" x="68" y="728" width="60" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="pause3"/>
+                                <connections>
+                                    <action selector="btnPause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aL5-0m-e7X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ui-qv-5lz">
+                                <rect key="frame" x="262" y="726" width="68" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="stopp"/>
+                                <connections>
+                                    <action selector="btnStopp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yoq-23-Ori"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRW-iS-cj6">
+                                <rect key="frame" x="308" y="60" width="46" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="menu"/>
+                                <connections>
+                                    <action selector="btnMeny:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JFc-Aq-eEr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Uu-vc-53J">
+                                <rect key="frame" x="142" y="254" width="106" height="58"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lho-1e-aSo">
+                                <rect key="frame" x="37" y="42" width="72" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&quot;profil&quot;"/>
+                                <connections>
+                                    <action selector="btnProfil:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Za7-Nc-vsu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.77423701080791274" green="0.82781398544266194" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="C6T-Qb-7Sz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="2Zm-p2-0Uo"/>
+                            <constraint firstItem="0Uu-vc-53J" firstAttribute="top" secondItem="C6T-Qb-7Sz" secondAttribute="bottom" constant="32" id="6WC-nh-eLV"/>
+                            <constraint firstItem="C6T-Qb-7Sz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="b29-1N-aDe"/>
+                            <constraint firstItem="0Uu-vc-53J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uon-6i-0NZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bntoProfil" destination="lho-1e-aSo" id="u5l-XZ-Q8h"/>
+                        <outlet property="btno1" destination="d7M-hS-mvg" id="n7a-uP-XeK"/>
+                        <outlet property="btno10" destination="jGy-kh-h4B" id="Knc-sU-U5o"/>
+                        <outlet property="btno11" destination="IHr-nm-FxP" id="TyI-72-ycu"/>
+                        <outlet property="btno12" destination="Jo1-vY-q7t" id="qFx-7m-j6D"/>
+                        <outlet property="btno13" destination="j0i-gX-SeS" id="r6b-1Y-S9Z"/>
+                        <outlet property="btno14" destination="YJK-bz-pBy" id="Z4a-wp-1yQ"/>
+                        <outlet property="btno15" destination="gd6-CV-aAj" id="pER-8f-oHQ"/>
+                        <outlet property="btno2" destination="En0-wH-S9s" id="aSp-T0-U4j"/>
+                        <outlet property="btno3" destination="rdS-aq-lBF" id="wR9-of-xx3"/>
+                        <outlet property="btno4" destination="LoV-qG-fvr" id="vbx-fp-Z7f"/>
+                        <outlet property="btno5" destination="Xbm-N9-wg0" id="t73-km-QFU"/>
+                        <outlet property="btno6" destination="6bg-jI-uls" id="Tlv-y5-HZ0"/>
+                        <outlet property="btno7" destination="4lz-KO-XIL" id="oxI-xA-XkP"/>
+                        <outlet property="btno8" destination="q4N-dV-MT0" id="CiU-hB-Cqq"/>
+                        <outlet property="btno9" destination="cpL-GG-uPN" id="GhO-tZ-ywj"/>
+                        <outlet property="btnoBlanda" destination="FZE-FL-00a" id="0CD-5c-xnj"/>
+                        <outlet property="btnoMeny" destination="fRW-iS-cj6" id="hPg-r6-9aI"/>
+                        <outlet property="btnoPause" destination="IpB-NY-FZs" id="gMy-Hw-5l0"/>
+                        <outlet property="btnoStopp" destination="4Ui-qv-5lz" id="3JI-9r-yi3"/>
+                        <outlet property="lblDrag" destination="0Uu-vc-53J" id="KFg-Kl-k2P"/>
+                        <outlet property="lblTid" destination="C6T-Qb-7Sz" id="aCs-Zo-vT6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.23076923076923" y="69.66824644549763"/>
+        </scene>
+        <!--Andra Vy View Controller-->
+        <scene sceneID="GHr-EE-Z7h">
+            <objects>
+                <viewController storyboardIdentifier="andra" id="xf7-sp-TLd" customClass="AndraVyViewController" customModule="_5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JBT-xC-CoQ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Statistik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnU-To-uO8">
+                                <rect key="frame" x="35" y="138" width="128" height="46"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rekordtid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XzH-j1-JmU">
+                                <rect key="frame" x="35" y="192" width="101" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snittid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSM-96-MrL">
+                                <rect key="frame" x="34.999999999999993" y="229" width="64.333333333333314" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Antal drag i snitt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTa-VH-wrq">
+                                <rect key="frame" x="35" y="266" width="168.33333333333334" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Totaltid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RD9-bc-SVZ">
+                                <rect key="frame" x="34.999999999999993" y="303" width="76.333333333333314" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Antal spel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hO6-Di-mxP">
+                                <rect key="frame" x="35" y="340" width="101" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="754-1X-frO">
+                                <rect key="frame" x="302" y="192" width="53" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaQ-ci-ltC">
+                                <rect key="frame" x="302" y="229" width="53" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvy-mH-tWS">
+                                <rect key="frame" x="302" y="266" width="53" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCw-Or-bwu">
+                                <rect key="frame" x="302" y="303" width="53" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inställningar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSh-rV-CEo">
+                                <rect key="frame" x="35" y="462" width="193" height="46"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haptik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0q-gm-U4a">
+                                <rect key="frame" x="35" y="516" width="67" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfa-AS-cmM">
+                                <rect key="frame" x="302" y="340" width="53" height="29"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Aie-Lf-s39">
+                                <rect key="frame" x="306" y="515" width="51" height="31"/>
+                                <connections>
+                                    <action selector="setHaptik:" destination="xf7-sp-TLd" eventType="valueChanged" id="FBA-DU-uMy"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gZO-gC-f70">
+                                <rect key="frame" x="35" y="407" width="103" height="41"/>
+                                <color key="backgroundColor" red="0.50074897959999998" green="0.54040404040000001" blue="0.50596929540000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <state key="normal" title=" Återställ">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnÅterställ:" destination="xf7-sp-TLd" eventType="touchUpInside" id="Ebg-Of-z6Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TFM-18-ocl"/>
+                        <color key="backgroundColor" red="0.78322285353535359" green="0.78322285353535359" blue="0.78322285353535359" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nSM-96-MrL" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="0Hd-nI-ZlO"/>
+                            <constraint firstItem="hvy-mH-tWS" firstAttribute="top" secondItem="jaQ-ci-ltC" secondAttribute="bottom" constant="8" symbolic="YES" id="44Q-5n-WT7"/>
+                            <constraint firstItem="TFM-18-ocl" firstAttribute="bottom" secondItem="gZO-gC-f70" secondAttribute="bottom" constant="362" id="4wD-rn-95F"/>
+                            <constraint firstItem="TFM-18-ocl" firstAttribute="trailing" secondItem="gCw-Or-bwu" secondAttribute="trailing" constant="35" id="8pf-x0-5I8"/>
+                            <constraint firstItem="hnU-To-uO8" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="9tA-iS-7Zj"/>
+                            <constraint firstItem="eSh-rV-CEo" firstAttribute="top" secondItem="RD9-bc-SVZ" secondAttribute="bottom" constant="130" id="BQW-hy-xYR"/>
+                            <constraint firstItem="iTa-VH-wrq" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="Lge-K1-cLj"/>
+                            <constraint firstItem="hnU-To-uO8" firstAttribute="top" secondItem="TFM-18-ocl" secondAttribute="top" constant="94" id="MxU-7s-bNS"/>
+                            <constraint firstItem="jaQ-ci-ltC" firstAttribute="top" secondItem="754-1X-frO" secondAttribute="bottom" constant="8" symbolic="YES" id="OKN-hk-uaM"/>
+                            <constraint firstItem="TFM-18-ocl" firstAttribute="trailing" secondItem="gZO-gC-f70" secondAttribute="trailing" constant="252" id="OdH-hr-Dff"/>
+                            <constraint firstItem="gCw-Or-bwu" firstAttribute="top" secondItem="hvy-mH-tWS" secondAttribute="bottom" constant="8" symbolic="YES" id="P7Q-rt-95K"/>
+                            <constraint firstItem="XzH-j1-JmU" firstAttribute="top" secondItem="hnU-To-uO8" secondAttribute="bottom" constant="8" symbolic="YES" id="QFP-ac-uF9"/>
+                            <constraint firstItem="b0q-gm-U4a" firstAttribute="top" secondItem="eSh-rV-CEo" secondAttribute="bottom" constant="8" symbolic="YES" id="QIC-JW-AUl"/>
+                            <constraint firstItem="TFM-18-ocl" firstAttribute="trailing" secondItem="Jfa-AS-cmM" secondAttribute="trailing" constant="35" id="T8J-SR-tyR"/>
+                            <constraint firstItem="754-1X-frO" firstAttribute="top" secondItem="TFM-18-ocl" secondAttribute="top" constant="148" id="TAw-36-5dh"/>
+                            <constraint firstItem="TFM-18-ocl" firstAttribute="trailing" secondItem="hvy-mH-tWS" secondAttribute="trailing" constant="35" id="Xed-Aq-PZF"/>
+                            <constraint firstItem="TFM-18-ocl" firstAttribute="trailing" secondItem="jaQ-ci-ltC" secondAttribute="trailing" constant="35" id="bqE-3l-Huq"/>
+                            <constraint firstItem="XzH-j1-JmU" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="dF7-c6-lVm"/>
+                            <constraint firstItem="RD9-bc-SVZ" firstAttribute="top" secondItem="iTa-VH-wrq" secondAttribute="bottom" constant="8" symbolic="YES" id="h2F-kw-HqV"/>
+                            <constraint firstItem="nSM-96-MrL" firstAttribute="top" secondItem="XzH-j1-JmU" secondAttribute="bottom" constant="8" symbolic="YES" id="hAK-9x-LJ7"/>
+                            <constraint firstItem="iTa-VH-wrq" firstAttribute="top" secondItem="nSM-96-MrL" secondAttribute="bottom" constant="8" symbolic="YES" id="j0d-73-KqP"/>
+                            <constraint firstItem="gZO-gC-f70" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="kBa-gG-e1a"/>
+                            <constraint firstItem="RD9-bc-SVZ" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="kp4-hD-O2M"/>
+                            <constraint firstItem="eSh-rV-CEo" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="o9w-O4-ttx"/>
+                            <constraint firstItem="TFM-18-ocl" firstAttribute="trailing" secondItem="754-1X-frO" secondAttribute="trailing" constant="35" id="pjf-RF-D2Q"/>
+                            <constraint firstItem="Jfa-AS-cmM" firstAttribute="top" secondItem="gCw-Or-bwu" secondAttribute="bottom" constant="8" symbolic="YES" id="s8k-np-MCZ"/>
+                            <constraint firstItem="TFM-18-ocl" firstAttribute="trailing" secondItem="Aie-Lf-s39" secondAttribute="trailing" constant="35" id="t7Y-HQ-D6w"/>
+                            <constraint firstItem="hO6-Di-mxP" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="u74-XC-AcU"/>
+                            <constraint firstItem="hO6-Di-mxP" firstAttribute="top" secondItem="RD9-bc-SVZ" secondAttribute="bottom" constant="8" symbolic="YES" id="vbF-Mu-yNs"/>
+                            <constraint firstItem="Aie-Lf-s39" firstAttribute="top" secondItem="Jfa-AS-cmM" secondAttribute="bottom" constant="146" id="vpT-p7-zqz"/>
+                            <constraint firstItem="b0q-gm-U4a" firstAttribute="leading" secondItem="TFM-18-ocl" secondAttribute="leading" constant="35" id="xXP-v5-R8y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RaX-HX-wR5"/>
+                    <connections>
+                        <outlet property="btnÅterställ" destination="gZO-gC-f70" id="sGZ-RR-cwC"/>
+                        <outlet property="lblAntalSpel" destination="Jfa-AS-cmM" id="5jx-yQ-6S2"/>
+                        <outlet property="lblBästTid" destination="754-1X-frO" id="svS-nX-Cf6"/>
+                        <outlet property="lblGenomsnittstid" destination="jaQ-ci-ltC" id="yHG-tQ-BLD"/>
+                        <outlet property="lblSnittDrag" destination="hvy-mH-tWS" id="jai-ol-ahi"/>
+                        <outlet property="lblTotaltid" destination="gCw-Or-bwu" id="3vX-9z-7Jy"/>
+                        <outlet property="swtoHaptik" destination="Aie-Lf-s39" id="Sac-qG-RlV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pTE-ID-025" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713.84615384615381" y="75.355450236966817"/>
+        </scene>
+        <!--Profil View Controller-->
+        <scene sceneID="Oc3-HZ-Fpl">
+            <objects>
+                <viewController storyboardIdentifier="profil" id="Rsa-VT-t0u" customClass="ProfilViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PaA-KT-goa">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="y2o-Fh-xrD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cyn-Wi-mvB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1400" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blanda" width="512" height="512"/>
+        <image name="menu" width="512" height="512"/>
+        <image name="pause3" width="900" height="900"/>
+        <image name="stopp" width="512" height="512"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
